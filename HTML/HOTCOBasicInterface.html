@@ -1,0 +1,61 @@
+<html>
+    <body>
+    
+        <h1>The Basic HOTCO Agent Interface</h1>
+        <p>
+            In an agent based model, like the ones you will be creating with the LIMBS Framework, 
+            the Agents are truly the powerhouses of computation, the mitochondria of the social 
+            cells. The HOTCO interface allows you to customize each Agent’s individual cognitive 
+            process, allowing Agents to think differently, reason based on different criteria, 
+            and overall, add depth and variety to your simulations!
+            
+            <br /><br/>
+            
+            HOTCO Models are made up of two things: nodes and links. Nodes represent Propositions, 
+            or concepts, or just about anything! (In fact, each Agent’s interface will be 
+            automatically populated with a set of nodes, each one representing a Proposition that 
+            the Agent has access to on the system level!)  Nodes also have an activation value 
+            and an emotion vector attached to each of them. These four numbers represent: 
+            
+            <ol>
+                <li>How true the Agent thinks what the node represents is (the activation value)</li>
+                <li>How pleasant the emotional stance the Agent has on what the node represents 
+                (the emotional valence)</li>
+                <li>How intense this emotional stance is (the emotional intensity)</li>
+                <li>And how much control over the Agent feels, consciously or subconsciously) 
+                they have over what the node represents (the emotional potency)</li>
+            </ol>
+            Links connect to nodes together, representing how compatible they are. For example, 
+            the node named PARENTS may be very compatible with a node named LOVE, and thus have 
+            an excitatory link between them, but LIVER AND ONIONS may not be very compatible with 
+            DELICIOUS, and thus have an inhibitory link between them.
+            
+            <br /><br />
+            
+            These links, as well as the initial activation value and emotional vector, determine 
+            how the Agent thinks. Overall, Agent’s will aim to maximize the coherence of the 
+            HOTCO model, meaning that nodes connected by an excitatory link will try to have 
+            as close to the same activation value as possible, and nodes connected by an 
+            inhibitory link will try to have as different an activation value as possible. The 
+            emotions factor in by increasing the activation of nodes with similar emotions (when 
+            you are happy, you are more likely to belief happy things) but even these are subject 
+            to coherence in a similar fashion.
+            
+            <br /><br />
+            
+            Overall, to add a node to the HOTCO interface, just select one from the toolkit at 
+            the top of the interface, and drag and drop it onto the canvas. To delete them, just 
+            select a node and press the “Delete” key on your keyboard. (Note that you can’t delete 
+            nodes representing system level propositions!) To add a link, click on one of the 
+            nodes, then chose an excitatory or inhibitory link from the toolkit, and drag it onto 
+            the second node. To modify the initial and current values of each node, simply click 
+            on the node, and modify the eight number fields in the upper right corner of the 
+            interface.
+            
+            <br /><br />
+            
+            Once you’re done here, you are ready to run your very first simulation!
+        
+        </p>
+    </body>
+</html>

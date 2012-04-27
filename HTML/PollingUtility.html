@@ -1,0 +1,42 @@
+<html>
+    <body>
+    
+        <h1>The Polling Utility</h1>
+		
+		The Polling Utility allows for information from multiple agents to be aggregated and reported,
+		similar to a referendum. The Polling Utility therefore has three notions: those of a constituency,
+		the issues in the referendum, and who to report the results to.
+		
+		<br /><br />
+		
+		But first, you need to define the election period. The Polling Utility runs period elections, the
+		structure of which can be defined by the "Time Before the First Election," "Polling Time" and "Time
+		Between Elections" boxes in the upper right corner of the interface. The "Time Before The First Election"
+		lets you offset the first election by some amount, all election afterwards having being periodic over
+		a defined interval of time, which is the "Time Between Elections." Lastly, the "Polling Time" is the
+		amount of time at the beginning of each election where votes are tabulated.
+		
+		<br /><br />
+		
+		The constituency is made up of Agents and Utilities in the same group as the Polling Utility, which
+		vote by sending the Polling Utility a message with their opinions enclosed, and the Polling Utility
+		tallies them.
+		
+		<br /><br />
+		
+		The issues are a subset of the Propositions in the same group as the Polling Utility. Note that not
+		every Agent in the consituency has to see all the issues, they can vote on the ones that they know
+		about. You can add or remove issues using the checkboxes beside the names of the Propositions.
+		
+		<br /><br />
+		
+		Lastly, the Polling Utility needs a way to communicate the results of the polling right after it
+		finishes. The Digests box tells you which Agents the Polling Utility will inform at the end of
+		each and every election.
+		
+		<br /><br />
+		
+		Just remember to press "Save" once you're done configuring the utility!
+		
+	</body>
+</html>	

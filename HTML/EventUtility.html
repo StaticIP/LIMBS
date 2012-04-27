@@ -1,0 +1,56 @@
+<html>
+    <body>
+    
+        <h1>The Event Utility</h1>
+        
+        <table cellpadding="10px" >
+            <tr>
+                <td colspan="2"  >
+                    In many social modelling scenarios, external influences can act as the initialization of 
+                    different social phenomena. For example, stock market crashes often require some small 
+                    starting decrease in stock price, just due to random effects or the company’s success, 
+                    for the crash to be initialized. After that initial decrease, stock owners sell their 
+                    stocks, trying to sell high, which further decreases the stock price, hence a crash.
+                </td>
+            </tr>    
+            <tr>
+                <td bgcolor="#B0C4DE" width="50%" >
+
+                    <i>Susan beamed at the model with a sense of accomplishment. It was nearly complete. 
+                    The last addition would be to somehow turn the stock market bubble she planned to 
+                    start with to a stock market crash. None of the agents themselves seemed to be able 
+                    to do this, all of them believing that the stock would always rise, and therefore 
+                    always buy it.
+                    <br /><br />
+                    She looked through the LIMBS Framework User Manual again, skimming over the rather 
+                    tedious and annoying blue boxes cluttering the pages. The last section was on 
+                    external events. “Perfect!” She thought. “I’ll have an external event force the 
+                    stock price down halfway through the simulation to get the crash I need!”
+                    <br /><br />
+                    After scheduling the crash event, Susan pressed the “Run Simulation” button again, 
+                    holding her breath, waiting excitedly for the results and hoping they would be 
+                    good enough for her advisor.
+                    </i>    
+                </td>
+                <td valign="top" >           
+                    To include simplified models of these external influences, an event scheduling 
+                    mechanism is provided. First, create an Event Utility, and place it in the Group
+					of your choice. Since Utilities act like Agents, the Event Utility will only be
+					able to send messages to Agents in one if its Group.
+
+					<br/><br/>
+					
+                    The event interface will automatically load with no events. To create a new event,
+					just populate this interface with information and hit save. The event will 
+					broadcast to the agents identified in the agents list, with a message containing
+					the information specified in the propositions list.
+                </td>
+            </tr>
+            <tr>
+                <td>
+				
+				</td>
+            </tr>
+        </table>
+    </body>
+</html>

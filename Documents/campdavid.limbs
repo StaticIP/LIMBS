@@ -1,0 +1,2413 @@
+<object-stream>
+  <LIMBS.Simulation>
+    <simulationRunning>false</simulationRunning>
+    <finished>false</finished>
+    <agents class="linked-hash-set">
+      <LIMBS.HOTCOAgent>
+        <id>3</id>
+        <name>Menachem Begin</name>
+        <simulation reference="../../.."/>
+        <groupList class="linked-hash-set">
+          <LIMBS.Group>
+            <id>1</id>
+            <name>Negotiators</name>
+            <simulation reference="../../../../.."/>
+            <agentList class="linked-hash-set">
+              <LIMBS.HOTCOAgent reference="../../../.."/>
+              <LIMBS.HOTCOAgent>
+                <id>4</id>
+                <name>Anwar Sadat</name>
+                <simulation reference="../../../../../../.."/>
+                <groupList class="linked-hash-set">
+                  <LIMBS.Group reference="../../../.."/>
+                </groupList>
+                <agentList class="linked-hash-set">
+                  <LIMBS.HOTCOAgent reference="../../../../../.."/>
+                </agentList>
+                <propList class="linked-hash-set">
+                  <LIMBS.Proposition>
+                    <id>12</id>
+                    <name>Pre-1967 Boundaries</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>5</id>
+                    <name>UN (242) Resolution</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>10</id>
+                    <name>Jimmy Carter</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>11</id>
+                    <name>Six Day War</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>17</id>
+                    <name>Other Isreali settlements</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>20</id>
+                    <name>US Interests</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>0</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>6</id>
+                    <name>Dismantle Isreali settlements in Sinai</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>1</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>7</id>
+                    <name>Maintain Isreali settlements in Sinai</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>1</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>8</id>
+                    <name>Israel</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>9</id>
+                    <name>Egypt</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>13</id>
+                    <name>Peace</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>15</id>
+                    <name>Aid</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>24</id>
+                    <name>Arab Interests</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>25</id>
+                    <name>Concessions</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                  <LIMBS.Proposition>
+                    <id>19</id>
+                    <name>Democracy</name>
+                    <simulation reference="../../../../../../../../.."/>
+                    <type>2</type>
+                    <groupList class="linked-hash-set">
+                      <LIMBS.Group reference="../../../../../.."/>
+                    </groupList>
+                  </LIMBS.Proposition>
+                </propList>
+                <messageQueue serialization="custom">
+                  <unserializable-parents/>
+                  <java.util.PriorityQueue>
+                    <default>
+                      <size>0</size>
+                      <comparator class="LIMBS.Message$1"/>
+                    </default>
+                    <int>2</int>
+                  </java.util.PriorityQueue>
+                </messageQueue>
+                <emotionalValence>0.0</emotionalValence>
+                <emotionalIntensity>0.0</emotionalIntensity>
+                <emotionalPotency>0.0</emotionalPotency>
+                <cognitiveThreshold>0.01</cognitiveThreshold>
+                <receptiveness>1.0</receptiveness>
+                <neurons class="linked-hash-set">
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>19</id>
+                    <name>Sovereignty</name>
+                    <xPosition>549.0</xPosition>
+                    <yPosition>278.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>20</id>
+                    <name>Menachem Begin</name>
+                    <xPosition>292.0</xPosition>
+                    <yPosition>427.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>21</id>
+                    <name>Defeat</name>
+                    <xPosition>196.0</xPosition>
+                    <yPosition>537.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>22</id>
+                    <name>Arab Reaction</name>
+                    <xPosition>160.0</xPosition>
+                    <yPosition>412.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>23</id>
+                    <name>Illegal</name>
+                    <xPosition>195.0</xPosition>
+                    <yPosition>249.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>24</id>
+                    <name>Land</name>
+                    <xPosition>624.0</xPosition>
+                    <yPosition>475.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>true</deletable>
+                    <owner reference="../../.."/>
+                    <id>25</id>
+                    <name>&quot;Messiah&quot; complex</name>
+                    <xPosition>821.0</xPosition>
+                    <yPosition>388.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                </neurons>
+                <propNeurons class="linked-hash-set">
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition"/>
+                    <id>0</id>
+                    <xPosition>547.0</xPosition>
+                    <yPosition>378.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[2]"/>
+                    <id>1</id>
+                    <xPosition>538.0</xPosition>
+                    <yPosition>453.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[3]"/>
+                    <id>2</id>
+                    <xPosition>408.0</xPosition>
+                    <yPosition>90.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[4]"/>
+                    <id>3</id>
+                    <xPosition>408.0</xPosition>
+                    <yPosition>539.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[5]"/>
+                    <id>4</id>
+                    <xPosition>447.0</xPosition>
+                    <yPosition>347.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[6]"/>
+                    <id>5</id>
+                    <xPosition>728.0</xPosition>
+                    <yPosition>118.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[7]"/>
+                    <id>6</id>
+                    <xPosition>735.0</xPosition>
+                    <yPosition>201.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[8]"/>
+                    <id>7</id>
+                    <xPosition>297.0</xPosition>
+                    <yPosition>201.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[9]"/>
+                    <id>8</id>
+                    <xPosition>372.0</xPosition>
+                    <yPosition>403.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[10]"/>
+                    <id>9</id>
+                    <xPosition>745.0</xPosition>
+                    <yPosition>542.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[11]"/>
+                    <id>10</id>
+                    <xPosition>824.0</xPosition>
+                    <yPosition>302.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[12]"/>
+                    <id>12</id>
+                    <xPosition>883.0</xPosition>
+                    <yPosition>467.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[13]"/>
+                    <id>14</id>
+                    <xPosition>889.0</xPosition>
+                    <yPosition>303.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[14]"/>
+                    <id>15</id>
+                    <xPosition>890.0</xPosition>
+                    <yPosition>388.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                  <LIMBS.HOTCONode>
+                    <deletable>false</deletable>
+                    <owner reference="../../.."/>
+                    <base reference="../../../propList/LIMBS.Proposition[15]"/>
+                    <id>18</id>
+                    <xPosition>562.0</xPosition>
+                    <yPosition>43.0</yPosition>
+                    <decay>0.01</decay>
+                    <emotionalValence>0.0</emotionalValence>
+                    <emotionalIntensity>0.0</emotionalIntensity>
+                    <emotionalPotency>0.0</emotionalPotency>
+                    <activation>0.0</activation>
+                    <initialEmotionalValence>0.0</initialEmotionalValence>
+                    <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+                    <initialEmotionalPotency>0.0</initialEmotionalPotency>
+                    <initialActivation>0.0</initialActivation>
+                    <inputActivation>0.0</inputActivation>
+                    <inputEmotionalValence>0.0</inputEmotionalValence>
+                    <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+                    <inputEmotionalPotency>0.0</inputEmotionalPotency>
+                    <numInputCogConnections>0.0</numInputCogConnections>
+                    <numInputEmoConnections>0.0</numInputEmoConnections>
+                    <activationNet>0.0</activationNet>
+                    <valenceNet>0.0</valenceNet>
+                    <intensityNet>0.0</intensityNet>
+                    <potencyNet>0.0</potencyNet>
+                    <numCogConnections>0.0</numCogConnections>
+                    <numEmoConnections>0.0</numEmoConnections>
+                  </LIMBS.HOTCONode>
+                </propNeurons>
+                <synapses class="linked-hash-set">
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+                    <strength>-1.0</strength>
+                    <id>0</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+                    <strength>1.0</strength>
+                    <id>1</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>2</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[15]"/>
+                    <strength>1.0</strength>
+                    <id>3</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[15]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+                    <strength>1.0</strength>
+                    <id>5</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>-1.0</strength>
+                    <id>6</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>7</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>-1.0</strength>
+                    <id>8</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[2]"/>
+                    <strength>1.0</strength>
+                    <id>9</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>1.0</strength>
+                    <id>10</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[2]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>1.0</strength>
+                    <id>11</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[5]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+                    <strength>1.0</strength>
+                    <id>12</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[5]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>1.0</strength>
+                    <id>13</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+                    <strength>1.0</strength>
+                    <id>15</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[3]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <strength>1.0</strength>
+                    <id>16</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[3]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>1.0</strength>
+                    <id>17</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[5]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+                    <strength>1.0</strength>
+                    <id>18</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[3]"/>
+                    <strength>1.0</strength>
+                    <id>19</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode"/>
+                    <strength>-1.0</strength>
+                    <id>20</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode"/>
+                    <strength>1.0</strength>
+                    <id>21</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode"/>
+                    <strength>1.0</strength>
+                    <id>22</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode"/>
+                    <strength>1.0</strength>
+                    <id>23</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+                    <strength>1.0</strength>
+                    <id>24</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+                    <strength>-1.0</strength>
+                    <id>26</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>27</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>28</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[11]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>29</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[12]"/>
+                    <strength>1.0</strength>
+                    <id>30</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[13]"/>
+                    <strength>-1.0</strength>
+                    <id>31</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[11]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+                    <strength>1.0</strength>
+                    <id>32</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[11]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[13]"/>
+                    <strength>1.0</strength>
+                    <id>33</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <strength>1.0</strength>
+                    <id>35</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+                    <strength>1.0</strength>
+                    <id>36</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+                    <strength>1.0</strength>
+                    <id>37</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode"/>
+                    <strength>-1.0</strength>
+                    <id>38</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <sideB reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+                    <strength>-1.0</strength>
+                    <id>39</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                  <LIMBS.HOTCOLink>
+                    <sideA reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+                    <sideB reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+                    <strength>-1.0</strength>
+                    <id>40</id>
+                    <currAgent reference="../../.."/>
+                  </LIMBS.HOTCOLink>
+                </synapses>
+                <empathyLinks class="linked-hash-set"/>
+                <contagionLinks class="linked-hash-set"/>
+                <altruismLinks class="linked-hash-set"/>
+                <communicationRules class="linked-hash-set"/>
+                <linkID>41</linkID>
+                <nodeID>26</nodeID>
+              </LIMBS.HOTCOAgent>
+            </agentList>
+            <propList class="linked-hash-set">
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[2]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[3]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[4]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[5]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[6]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[7]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[8]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[9]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[10]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[11]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[12]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[13]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[14]"/>
+              <LIMBS.Proposition reference="../../agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[15]"/>
+            </propList>
+          </LIMBS.Group>
+        </groupList>
+        <agentList class="linked-hash-set">
+          <LIMBS.HOTCOAgent reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]"/>
+        </agentList>
+        <propList class="linked-hash-set">
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[2]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[3]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[4]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[5]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[6]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[7]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[8]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[9]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[10]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[11]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[12]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[13]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[14]"/>
+          <LIMBS.Proposition reference="../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[15]"/>
+        </propList>
+        <messageQueue serialization="custom">
+          <unserializable-parents/>
+          <java.util.PriorityQueue>
+            <default>
+              <size>0</size>
+              <comparator class="LIMBS.Message$1" reference="../../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/messageQueue/java.util.PriorityQueue/default/comparator"/>
+            </default>
+            <int>2</int>
+          </java.util.PriorityQueue>
+        </messageQueue>
+        <emotionalValence>0.0</emotionalValence>
+        <emotionalIntensity>0.0</emotionalIntensity>
+        <emotionalPotency>0.0</emotionalPotency>
+        <cognitiveThreshold>0.01</cognitiveThreshold>
+        <receptiveness>1.0</receptiveness>
+        <neurons class="linked-hash-set">
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>19</id>
+            <name>Anwar Sadat</name>
+            <xPosition>867.0</xPosition>
+            <yPosition>187.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>20</id>
+            <name>Victory</name>
+            <xPosition>328.0</xPosition>
+            <yPosition>120.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>21</id>
+            <name>Security</name>
+            <xPosition>477.0</xPosition>
+            <yPosition>487.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>22</id>
+            <name>Personal history</name>
+            <xPosition>534.0</xPosition>
+            <yPosition>358.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>23</id>
+            <name>Alliances and friendships</name>
+            <xPosition>646.0</xPosition>
+            <yPosition>355.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>true</deletable>
+            <owner reference="../../.."/>
+            <id>24</id>
+            <name>Political Ramifications</name>
+            <xPosition>574.0</xPosition>
+            <yPosition>275.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+        </neurons>
+        <propNeurons class="linked-hash-set">
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition"/>
+            <id>0</id>
+            <xPosition>421.0</xPosition>
+            <yPosition>571.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[2]"/>
+            <id>1</id>
+            <xPosition>733.0</xPosition>
+            <yPosition>574.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[3]"/>
+            <id>2</id>
+            <xPosition>874.0</xPosition>
+            <yPosition>423.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[4]"/>
+            <id>3</id>
+            <xPosition>271.0</xPosition>
+            <yPosition>397.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[5]"/>
+            <id>4</id>
+            <xPosition>449.0</xPosition>
+            <yPosition>61.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[6]"/>
+            <id>5</id>
+            <xPosition>758.0</xPosition>
+            <yPosition>353.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[7]"/>
+            <id>6</id>
+            <xPosition>722.0</xPosition>
+            <yPosition>196.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[8]"/>
+            <id>7</id>
+            <xPosition>384.0</xPosition>
+            <yPosition>218.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[9]"/>
+            <id>8</id>
+            <xPosition>390.0</xPosition>
+            <yPosition>396.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[10]"/>
+            <id>9</id>
+            <xPosition>803.0</xPosition>
+            <yPosition>66.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[11]"/>
+            <id>10</id>
+            <xPosition>457.0</xPosition>
+            <yPosition>288.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[12]"/>
+            <id>12</id>
+            <xPosition>752.0</xPosition>
+            <yPosition>502.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[13]"/>
+            <id>14</id>
+            <xPosition>718.0</xPosition>
+            <yPosition>59.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[14]"/>
+            <id>15</id>
+            <xPosition>683.0</xPosition>
+            <yPosition>482.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+          <LIMBS.HOTCONode>
+            <deletable>false</deletable>
+            <owner reference="../../.."/>
+            <base reference="../../../groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[15]"/>
+            <id>18</id>
+            <xPosition>575.0</xPosition>
+            <yPosition>432.0</yPosition>
+            <decay>0.01</decay>
+            <emotionalValence>0.0</emotionalValence>
+            <emotionalIntensity>0.0</emotionalIntensity>
+            <emotionalPotency>0.0</emotionalPotency>
+            <activation>0.0</activation>
+            <initialEmotionalValence>0.0</initialEmotionalValence>
+            <initialEmotionalIntensity>0.0</initialEmotionalIntensity>
+            <initialEmotionalPotency>0.0</initialEmotionalPotency>
+            <initialActivation>0.0</initialActivation>
+            <inputActivation>0.0</inputActivation>
+            <inputEmotionalValence>0.0</inputEmotionalValence>
+            <inputEmotionalIntensity>0.0</inputEmotionalIntensity>
+            <inputEmotionalPotency>0.0</inputEmotionalPotency>
+            <numInputCogConnections>0.0</numInputCogConnections>
+            <numInputEmoConnections>0.0</numInputEmoConnections>
+            <activationNet>0.0</activationNet>
+            <valenceNet>0.0</valenceNet>
+            <intensityNet>0.0</intensityNet>
+            <potencyNet>0.0</potencyNet>
+            <numCogConnections>0.0</numCogConnections>
+            <numEmoConnections>0.0</numEmoConnections>
+          </LIMBS.HOTCONode>
+        </propNeurons>
+        <synapses class="linked-hash-set">
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>1.0</strength>
+            <id>0</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[3]"/>
+            <strength>1.0</strength>
+            <id>1</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[11]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+            <strength>1.0</strength>
+            <id>2</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[11]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[4]"/>
+            <strength>-1.0</strength>
+            <id>3</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode[5]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[4]"/>
+            <strength>1.0</strength>
+            <id>4</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[5]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>1.0</strength>
+            <id>5</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode[2]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>1.0</strength>
+            <id>6</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[13]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[5]"/>
+            <strength>-1.0</strength>
+            <id>7</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode[5]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>-1.0</strength>
+            <id>8</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>-1.0</strength>
+            <id>9</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[15]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[5]"/>
+            <strength>1.0</strength>
+            <id>10</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[15]"/>
+            <strength>1.0</strength>
+            <id>11</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[15]"/>
+            <strength>1.0</strength>
+            <id>12</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[12]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+            <strength>1.0</strength>
+            <id>13</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[6]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[12]"/>
+            <strength>1.0</strength>
+            <id>14</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+            <strength>1.0</strength>
+            <id>15</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[6]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>16</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+            <strength>1.0</strength>
+            <id>17</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>18</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>19</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+            <strength>1.0</strength>
+            <id>20</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[3]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>23</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode"/>
+            <strength>-1.0</strength>
+            <id>26</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[3]"/>
+            <strength>-1.0</strength>
+            <id>27</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[4]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>1.0</strength>
+            <id>28</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[13]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>29</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[13]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[8]"/>
+            <strength>-1.0</strength>
+            <id>30</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+            <strength>1.0</strength>
+            <id>31</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode[6]"/>
+            <sideB reference="../../../neurons/LIMBS.HOTCONode[5]"/>
+            <strength>-1.0</strength>
+            <id>32</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+            <strength>1.0</strength>
+            <id>33</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[10]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[7]"/>
+            <strength>1.0</strength>
+            <id>35</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode[12]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[14]"/>
+            <strength>1.0</strength>
+            <id>36</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../propNeurons/LIMBS.HOTCONode"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[2]"/>
+            <strength>1.0</strength>
+            <id>37</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+          <LIMBS.HOTCOLink>
+            <sideA reference="../../../neurons/LIMBS.HOTCONode[4]"/>
+            <sideB reference="../../../propNeurons/LIMBS.HOTCONode[9]"/>
+            <strength>1.0</strength>
+            <id>38</id>
+            <currAgent reference="../../.."/>
+          </LIMBS.HOTCOLink>
+        </synapses>
+        <empathyLinks class="linked-hash-set"/>
+        <contagionLinks class="linked-hash-set"/>
+        <altruismLinks class="linked-hash-set"/>
+        <communicationRules class="linked-hash-set"/>
+        <linkID>39</linkID>
+        <nodeID>25</nodeID>
+      </LIMBS.HOTCOAgent>
+      <LIMBS.HOTCOAgent reference="../LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]"/>
+    </agents>
+    <groups class="linked-hash-set">
+      <LIMBS.Group reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group"/>
+    </groups>
+    <props class="linked-hash-set">
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[2]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[7]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[8]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[9]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[10]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[3]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[4]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[11]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[12]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[5]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[15]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[6]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[13]"/>
+      <LIMBS.Proposition reference="../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[14]"/>
+    </props>
+    <agentWidgets class="linked-hash-set">
+      <LIMBS.AgentWidget>
+        <agent class="LIMBS.HOTCOAgent" reference="../../../agents/LIMBS.HOTCOAgent"/>
+        <shape class="java.awt.geom.Ellipse2D$Double">
+          <x>305.0</x>
+          <y>68.0</y>
+          <width>40.0</width>
+          <height>40.0</height>
+        </shape>
+        <x>325</x>
+        <y>88</y>
+        <width>40</width>
+      </LIMBS.AgentWidget>
+      <LIMBS.AgentWidget>
+        <agent class="LIMBS.HOTCOAgent" reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]"/>
+        <shape class="java.awt.geom.Ellipse2D$Double">
+          <x>340.0</x>
+          <y>121.0</y>
+          <width>40.0</width>
+          <height>40.0</height>
+        </shape>
+        <x>360</x>
+        <y>141</y>
+        <width>40</width>
+      </LIMBS.AgentWidget>
+    </agentWidgets>
+    <utilityWidgets class="linked-hash-set"/>
+    <groupWidgets class="linked-hash-set">
+      <LIMBS.GroupWidget>
+        <group reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group"/>
+        <vertices>
+          <LIMBS.GroupWidget_-Point>
+            <x>229</x>
+            <y>-31</y>
+            <outer-class reference="../../.."/>
+          </LIMBS.GroupWidget_-Point>
+          <LIMBS.GroupWidget_-Point>
+            <x>249</x>
+            <y>519</y>
+            <outer-class reference="../../.."/>
+          </LIMBS.GroupWidget_-Point>
+          <LIMBS.GroupWidget_-Point>
+            <x>1054</x>
+            <y>509</y>
+            <outer-class reference="../../.."/>
+          </LIMBS.GroupWidget_-Point>
+          <LIMBS.GroupWidget_-Point>
+            <x>1062</x>
+            <y>-36</y>
+            <outer-class reference="../../.."/>
+          </LIMBS.GroupWidget_-Point>
+        </vertices>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>229</int>
+            <int>249</int>
+            <int>1054</int>
+            <int>1062</int>
+          </xpoints>
+          <ypoints>
+            <int>-31</int>
+            <int>519</int>
+            <int>509</int>
+            <int>-36</int>
+          </ypoints>
+          <bounds>
+            <x>229</x>
+            <y>-36</y>
+            <width>833</width>
+            <height>555</height>
+          </bounds>
+        </shape>
+        <movementType>-1</movementType>
+        <originalClickX>-1</originalClickX>
+        <originalClickY>-1</originalClickY>
+      </LIMBS.GroupWidget>
+    </groupWidgets>
+    <evidenceWidgets class="linked-hash-set">
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[2]"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>707</int>
+            <int>727</int>
+            <int>747</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>116</int>
+            <int>76</int>
+            <int>116</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>727</x>
+        <y>96</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[3]"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>886</int>
+            <int>906</int>
+            <int>926</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>35</int>
+            <int>-5</int>
+            <int>35</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>906</x>
+        <y>15</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[4]"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>646</int>
+            <int>666</int>
+            <int>686</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>20</int>
+            <int>-20</int>
+            <int>20</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>666</x>
+        <y>0</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>562</int>
+            <int>582</int>
+            <int>602</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>96</int>
+            <int>56</int>
+            <int>96</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>582</x>
+        <y>76</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[5]"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>767</int>
+            <int>787</int>
+            <int>807</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>120</int>
+            <int>80</int>
+            <int>120</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>787</x>
+        <y>100</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+      <LIMBS.EvidenceWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[6]"/>
+        <shape>
+          <npoints>3</npoints>
+          <xpoints>
+            <int>742</int>
+            <int>762</int>
+            <int>782</int>
+            <int>0</int>
+          </xpoints>
+          <ypoints>
+            <int>39</int>
+            <int>-1</int>
+            <int>39</int>
+            <int>0</int>
+          </ypoints>
+        </shape>
+        <x>762</x>
+        <y>19</y>
+        <width>40</width>
+      </LIMBS.EvidenceWidget>
+    </evidenceWidgets>
+    <actionWidgets class="linked-hash-set">
+      <LIMBS.ActionWidget>
+        <shape class="java.awt.geom.Rectangle2D$Double">
+          <x>286.0</x>
+          <y>279.0</y>
+          <width>40.0</width>
+          <height>40.0</height>
+        </shape>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[7]"/>
+        <x>306</x>
+        <y>299</y>
+        <width>40</width>
+      </LIMBS.ActionWidget>
+      <LIMBS.ActionWidget>
+        <shape class="java.awt.geom.Rectangle2D$Double">
+          <x>346.0</x>
+          <y>314.0</y>
+          <width>40.0</width>
+          <height>40.0</height>
+        </shape>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[8]"/>
+        <x>366</x>
+        <y>334</y>
+        <width>40</width>
+      </LIMBS.ActionWidget>
+    </actionWidgets>
+    <goalWidgets class="linked-hash-set">
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[9]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>694</int>
+            <int>714</int>
+            <int>734</int>
+            <int>714</int>
+          </xpoints>
+          <ypoints>
+            <int>322</int>
+            <int>302</int>
+            <int>322</int>
+            <int>342</int>
+          </ypoints>
+        </shape>
+        <x>714</x>
+        <y>322</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[10]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>704</int>
+            <int>724</int>
+            <int>744</int>
+            <int>724</int>
+          </xpoints>
+          <ypoints>
+            <int>385</int>
+            <int>365</int>
+            <int>385</int>
+            <int>405</int>
+          </ypoints>
+        </shape>
+        <x>724</x>
+        <y>385</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[11]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>632</int>
+            <int>652</int>
+            <int>672</int>
+            <int>652</int>
+          </xpoints>
+          <ypoints>
+            <int>374</int>
+            <int>354</int>
+            <int>374</int>
+            <int>394</int>
+          </ypoints>
+        </shape>
+        <x>652</x>
+        <y>374</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[12]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>785</int>
+            <int>805</int>
+            <int>825</int>
+            <int>805</int>
+          </xpoints>
+          <ypoints>
+            <int>409</int>
+            <int>389</int>
+            <int>409</int>
+            <int>429</int>
+          </ypoints>
+        </shape>
+        <x>805</x>
+        <y>409</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[15]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>582</int>
+            <int>602</int>
+            <int>622</int>
+            <int>602</int>
+          </xpoints>
+          <ypoints>
+            <int>427</int>
+            <int>407</int>
+            <int>427</int>
+            <int>447</int>
+          </ypoints>
+        </shape>
+        <x>602</x>
+        <y>427</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[13]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>883</int>
+            <int>903</int>
+            <int>923</int>
+            <int>903</int>
+          </xpoints>
+          <ypoints>
+            <int>291</int>
+            <int>271</int>
+            <int>291</int>
+            <int>311</int>
+          </ypoints>
+        </shape>
+        <x>903</x>
+        <y>291</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+      <LIMBS.GoalWidget>
+        <prop reference="../../../agents/LIMBS.HOTCOAgent/groupList/LIMBS.Group/agentList/LIMBS.HOTCOAgent[2]/propList/LIMBS.Proposition[14]"/>
+        <shape>
+          <npoints>4</npoints>
+          <xpoints>
+            <int>862</int>
+            <int>882</int>
+            <int>902</int>
+            <int>882</int>
+          </xpoints>
+          <ypoints>
+            <int>425</int>
+            <int>405</int>
+            <int>425</int>
+            <int>445</int>
+          </ypoints>
+        </shape>
+        <x>882</x>
+        <y>425</y>
+        <width>40</width>
+      </LIMBS.GoalWidget>
+    </goalWidgets>
+    <componentIdNumber>25</componentIdNumber>
+    <currentIteration>0</currentIteration>
+    <paused>false</paused>
+    <numWaiting>0</numWaiting>
+    <numTasks>0</numTasks>
+  </LIMBS.Simulation>
+</object-stream>

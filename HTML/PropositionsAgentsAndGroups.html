@@ -1,0 +1,163 @@
+<html>
+    <body>
+    
+        <h1>Propositions, Agents and Groups</h1>
+        
+        <p>
+            On the system-wide level, we have three main entities: Propositions, Agents and Groups. 
+            This section explores what each of these entities is and how to add them to your simulation.
+            <br /><br />
+        </p>
+        
+        <h3>Propositions</h3>
+        <table cellpadding="10px" >
+            <tr>
+                <td valign="top" >
+                    <p>Propositions are any type of information that agents can communicate to each other, which are 
+                    often the major pieces of information relevant in making a decision. They are split into three 
+                    subgroups: evidence, which are the factors used to make a decision; actions, which are the 
+                    results of the decision; and goals, which are the concepts that each agent may want to maximize... 
+                    or minimize!
+                    
+                    <br /><br />
+                    
+                    Determining propositions is the first major step in understanding the breadth and scope of your model, 
+                    but don’t worry right now about getting it definitely right, you can always go back and change the 
+                    list as your understanding of the situation that you are trying to model changes! The goal of this 
+                    stage is just to start populating the model without having to worry about fine tuning it!
+                    
+                    <br /><br />
+                    
+                    To add propositions to the model, just select the "Propositions" tab at the top of the application, and 
+                    click the button for the proposition type you want to add. The new proposition will appear on the canvas! 
+                    Evidence are represented as circles, actions as triangles, and goals as squares. Once you drag and drop 
+                    them in, you can change their name using the properties bar. Just click on the object, and the right side 
+                    of the interface should give you all the properties about it in the properties field. Just change the 
+                    name field to whatever name you’ve given the proposition, and then hit “Apply” and it’s good to go!
+                    
+					<br /><br />
+					
+					Propositions are distinguished visually by both their shape and their colour. Evidence are cyan triangles,
+					actions are medium blue squares, and goals are vibrant blue diamonds.
+					
+					<br /><br />
+                    </p>
+                </td>    
+                <td bgcolor="#B0C4DE" valign="top" width="50%" >
+                    <i>Susan got out a pen and paper from the top drawer of her desk and started 
+                    brainstorming. "What factors determine stock booms and busts?"
+                    <br /><br />
+                    After a moment’s thought, she determined that the stock buying behaviour of 
+                    individual people was really what she wanted to model more than the booms and 
+                    busts themselves. 
+                    <br /><br />
+                    "What are the factors making up these decisions? Well, the general rule I’ve 
+                    always heard is that you buy stocks when they are low and sell them when they 
+                    are high, so STOCK HIGH and STOCK LOW should be pieces of evidence. 
+                    Realistically, though, you want to buy stocks if they are going up, so GOING UP 
+                    and GOING DOWN could also be evidence. Same with buyer OPTIMISM and PESSIMISM, 
+                    at least according to my first year macroeconomics professor!"
+                    <br /><br />
+                    "Now for actions, well, that’s easy! BUY STOCK and SELL STOCK! And since the 
+                    only goal in the whole scheme is to MAKE MONEY, I’ll add that as a goal!"
+                    <br /><br />
+                    Susan leaned back in her chair, beaming at the piece of paper on her desk. That 
+                    model seemed to get closer and closer to completion the more she thought. She 
+                    smiled.</i>   
+                </td>        
+            </tr>
+        </table>
+        
+        <h3>Agents and Utilities</h3>
+        <table cellpadding="10px" >    
+            <tr>
+                <td valign="top" >
+                    Agents are the basic power-houses of your simulation. Eventually, you will learn how to customize each 
+                    agent, giving them their own special way of thinking, making decisions and communicating with others. But 
+                    don’t get too excited just yet, let’s focus on adding them to the system first!
+                    
+                    <br /><br />
+                    
+                    To add an agent, simply select the "Agent" tab at the top of the application, and click the "HOTCO Agent" button. 
+                    The new agent will appear on the canvas! To edit the agent’s name, click on the agent on the canvas to select it, 
+                    then use the name field in the properties panel to update its name. Remember to hit “Apply” when you’re done!
+                    
+					<br /><br />
+                    
+					All agents are circles, and the colour of the circle can give you some quick insight into their emotional state.
+					Green means that the agent is feeling good, yellow meaning middling or emotionless, and read meaning bad. The
+					colour can very between these, so a greenish-yellow can mean feeling somewhat good, while an orange could mean
+					feeling somewhat bad.
+					
+                    <br /><br />
+                    
+					Utilities are simple, Agent-like components, which also make decisions and communicate, but do so in very strict,
+					not psychological possible ways. They can be used to make the simulation easier to analyse, or to provide some
+					aspects of the simulation that are not the responsibility of a single Agent, like external events, or referendums.
+					Utilities are all identified as magenta octogons.
+					
+                    <br /><br />
+                </td>
+                <td bgcolor="#B0C4DE" width="40%" >        
+                   
+                    <i>"Agents," thought Susan, "well, that’s easy! I’ll just put in a few artificial 
+                    stock traders. That’ll do the trick. But how many?"
+                    <br /><br />
+                    She paused.
+                    <br /><br />
+                    "Seven. It’s dead wrong, but at least it is a pretty good starting point! Besides, 
+                    I always liked that number."
+                    </i>
+                </td>
+            </tr>
+            <tr>
+                <td>                        
+                    As with propositions, don’t worry too much about getting everything about the agent’s just right yet. Focus on 
+                    getting an appropriate number of agents instead.
+                    <br /><br />
+                </td>
+            </tr>
+        </table>
+        
+        <h3>Groups</h3>
+        <table cellpadding="10px" >            
+            <tr>
+                <td bgcolor="#B0C4DE" valign="top" width="40%" >
+        
+                    <i>"Do I even have any groups?" Susan thought out loud. "How are these buyers all 
+                    related?"
+                    <br /><br />
+                    She paused again. Maybe modelling wasn’t going to be as easy as she originally 
+                    thought. At least it isn’t as hard as she thought when she was given the assignment 
+                    by her adviser less than an hour ago.
+                    <br /><br />
+                    "Well, I’ll just have a single BUYERS group for now. If I need any more, I’ll add 
+                    them later."</i>    
+                </td>
+                <td>
+                    <p>
+                        The last entity in the LIMBS framework that you need to think about are groups. Groups ask the question “How are 
+                        agents and propositions organized?” This question can be answered in many ways depending on what you are trying 
+                        to model. For example, if you are modeling an international negotiation, you may want a group for the negotiators, 
+                        but you may also want a group for each country involved, so you can model the country giving its negotiators 
+                        feedback on their decisions.
+                        
+                        <br /><br />
+                        
+                        An interesting thing about groups is that they may overlap. Taking the example of the international negotiators, 
+                        each negotiator would be part of the negotiator group as well as the group for their respective country. So, each 
+                        country can overlap with the negotiator group!
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    Once again, to add a group, simply select the "Group" tab, click the button, and the new group will appear on the canvas. 
+                    To rename it, just click on the group then use the name field in the properties panel to update the group name. Remember 
+                    to hit “Apply” to save the changes. 
+                </td>
+            </tr>
+        </table>    
+        
+    </body>
+</html>

@@ -1,0 +1,10 @@
+<LIMBS.Config>
+  <SaveFolder>Saves</SaveFolder>
+  <LogFile>LIMBS_Log.txt</LogFile>
+  <agentSize>40</agentSize>
+  <propSize>40</propSize>
+  <nodeSize>20</nodeSize>
+  <showNames>false</showNames>
+  <framerate>0</framerate>
+  <screenSize>1</screenSize>
+</LIMBS.Config>

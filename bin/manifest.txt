@@ -1,0 +1,2 @@
+Main-Class: LIMBS.LIMBS
+Class-Path: bin/xstream.jar bin/xpp3.jar bin/jcommon-1.0.17.jar bin/jfreechart-1.0.14.jar LIMBS.jar
